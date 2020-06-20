@@ -40,6 +40,7 @@
   line-height: 96px;
   font-size: 102px;
   font-weight: bold;
+  z-index: 4;
 }
 .header__subtitle {
   position: absolute;
