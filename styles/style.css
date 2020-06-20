@@ -31,9 +31,7 @@
   left: 64px;
   z-index: 5;
 }
-h1 {
-  display: block;
-}
+
 .header__title {
   position: absolute;
   width: 730px;
@@ -96,7 +94,6 @@ h1 {
 }
 
 .tow-columns__brief {
-  
   width: 175px;
   line-height: 1.2;
   font-size: 18px;
@@ -113,7 +110,6 @@ h1 {
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
-  
 }
 .tow-columns__paragraph {
   margin: 0 0 30px;
@@ -132,8 +128,6 @@ h1 {
   font-weight: bold;
   margin: auto;
   width: 60%;
-  
-  
 }
 .section-subtitle {
   padding-top: 20px;
@@ -147,8 +141,6 @@ h1 {
 .table {
   display: flex;
   margin: auto;
-
-  
   flex-wrap: wrap;
   width: 1100px;
   justify-content: space-between;
@@ -171,9 +163,6 @@ h1 {
   font-size: 18px;
   font-weight: normal;
 }
-
-/* и элемента с модификатором вида ключ-значение */
-
 /*Блок Фейман*/
 .feynman {
   background-image: url(/Users/makbookair/Desktop/проект/how-to-learn/images/feynman.png);
@@ -181,15 +170,12 @@ h1 {
   display: flex;
   background-repeat: no-repeat;
   background-size: 867px 637px;
-  
+  padding-top: 100px;
   position: relative;
   height: 790px;
   flex-direction: column;
-  
-  
 }
 .feynman__title {
-  
   width: 648px;
   line-height: 1.15;
   font-size: 120px;
@@ -200,17 +186,14 @@ h1 {
   align-self: center;
 }
 .feynman__subtitle {
-  
   line-height: 51px;
   font-size: 36px;
   padding-top: 70px;
   margin: 0px;
   font-weight: normal;
   align-self: center;
-  z-index: 6;
-  
+  z-index: 6; 
 }
-
 .feynman__link {
   line-height: 51px;
   font-size: 36px;
@@ -220,7 +203,6 @@ h1 {
   right: 48px;
   color: black;
 }
-
 .kaufman {
   min-width: 1100px;
   max-width: 1600px;
@@ -229,62 +211,34 @@ h1 {
   position: relative;
   overflow: hidden;
   flex-direction: column;
-  display: flex;
-  
+  display: flex; 
 }
-
 .section-title__theme_dark {
   color: white;
   padding-top: 90px;
   z-index: 4;
-
-
-
 }
 .section-subtitle__theme_dark {
-  
   color: white;
   z-index: 4;
 }
-/*
-.table__theme_dark {
-  border: 1px solid red;
-  
-}*/
-
 .table__cell_theme_dark {
-  
   width: 200px;
   color: white;
   padding-top: 80px;
   z-index: 4;
-  
 }
-/*.table__heading_theme_dark {
-  border: 1px solid red;
-
-}
-.table__text_theme_dark {
-  border: 1px solid white;
-
-}*/
 .kaufman__tringle {
   position: absolute;
   width: 877px;
   height: 877px;
-  right: -210px;
-  
-  
+  right: -210px; 
 }
-
-
-
 .footer {
   min-height: 350px;
   background-color: #1f1f1f;
   color: white;
   display: flex;
- 
 }
 .logo_place_footer {
   width: 183px;
@@ -306,10 +260,8 @@ h1 {
   font-weight: normal;
   top: 18px;
   bottom: 18px;
-  
 }
 .footer__columns__content-copyright {
-
   display: flex;
   flex-basis: 711px;
   flex-direction: column;
@@ -327,7 +279,6 @@ h1 {
 }
 
 .footer__column-links {
-  
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
@@ -336,7 +287,6 @@ h1 {
   margin: 0;
 }
 .footer__columns__content-social {
-  
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
@@ -345,74 +295,4 @@ h1 {
   color: wheat;
   width: 16px;
   height: 16px;
-
 }
-/*
-.feynman__illustration {
-  position: absolute;
-  width: 867px;
-  height: 637px;
-  bottom: 0;
-  left: 0px;
-  
-}*/
-/*Блок Кауфман*/
-/*
-.kaufman {
-  background-color: #1f1f1f;
-  overflow: hidden;
-  
-}
-.kaufman__tringle {
-  position: absolute;
-  right: -210px;
-  width: 877px;
-  height: 877px;
-  padding-bottom: 0;
-}
-.table_theme_dark {
-  display: flex;
-  margin: auto;
-  margin-top: 80px;
- 
-  flex-wrap: wrap;
-  width: 1100px;
-  justify-content: space-between;
-  padding-bottom: 40px;
-  
-}
-.table__cell_theme_dark { ohohoh
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
-  
-}
-.table__heading_theme_dark  {
-  margin-top: 0;
-  
-  line-height: 1.15;
-  font-size: 24px;
-  font-weight: bold;
-}
-.table__text_theme_dark  {  
-  
-  line-height: 1.2;
-  font-size: 18px;
-  font-weight: normal;
-  z-index: 4;
-}
-.section-title_theme_dark {
-  text-align: center;
-  line-height: 69px;
-  font-size: 60px;
-  font-weight: bold;
-  margin: auto;
-  width: 60%; 
-  color: white; 
-}
-.section-subtitle_theme_dark {
-  
-  color: white;
-}
-*/
