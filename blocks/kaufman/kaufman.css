@@ -1,0 +1,17 @@
+
+@import url(section-subtitle_theme_dark/section-subtitle_theme_dark.css);
+@import url(section-title_theme_dark/section-title_theme_dark.css);
+@import url(table__cell_theme_dark/table__cell_theme_dark.css);
+@import url(__triangle/kaufman__triangle.css);
+.kaufman {
+    min-width: 1100px;
+    max-width: 1600px;
+    background-color: #1f1f1f;
+    padding-bottom: 90px;
+    padding-top: 90px;
+    position: relative;
+    overflow: hidden;
+    flex-direction: column;
+    display: flex; 
+    
+  }

@@ -1,0 +1,17 @@
+.resources__logo {
+  
+    width: 270px;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+   
+  
+  }
+  .resources__logo:visited {
+    box-shadow: 5px 6px 7px grey;
+
+  }
+  .resources__logo:hover {
+    box-shadow: 5px 6px 7px gray;
+
+  }

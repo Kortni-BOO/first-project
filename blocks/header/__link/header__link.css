@@ -1,0 +1,13 @@
+.header__link {
+  /*position: absolute;*/
+  color: #2f80ed;
+  text-decoration: none;
+}
+.header__link:visited {
+  color: #0075B2;
+  text-decoration: none;
+}
+.header__link:hover {
+  color: #CE242B;
+  text-decoration: underline;
+}

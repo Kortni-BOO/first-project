@@ -1,0 +1,12 @@
+.footer__social-icon {
+    width: 16px;
+    height: 16px;
+  }
+  .footer__social-icon:visited {
+    box-shadow: 5px 6px 7px grey;
+
+  }
+  .footer__social-icon:hover {
+    box-shadow: 5px 6px 7px gray;
+
+  }
