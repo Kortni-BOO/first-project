@@ -7,11 +7,8 @@
    
   
   }
-  .resources__logo:visited {
-    box-shadow: 5px 6px 7px grey;
-
-  }
   .resources__logo:hover {
-    box-shadow: 5px 6px 7px gray;
+    opacity: .4;
+    transition: .5s linear; 
 
   }

@@ -8,11 +8,7 @@
     color: white;
     text-decoration: none;
   }
-  .footer__column-link:visited {
-    color: #0075B2;
-    text-decoration: none;
-  }
   .footer__column-link:hover {
-    color: #CE242B;
-    text-decoration: underline;
+    opacity: .4;
+    transition: .5s linear; 
   }
